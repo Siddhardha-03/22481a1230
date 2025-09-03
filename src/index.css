@@ -1,13 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-image: url('https://www.peakpx.com/en/hd-wallpaper-desktop-ahesr');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Bangers', cursive;
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 600px;
+  margin: 5rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #e62429;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #f4c542;
+  text-shadow: 2px 2px #e62429;
+}
+
+.input {
+  width: 80%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  background-color: #e62429;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #f4c542;
+  transition: transform 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #f4c542;
+}
+
+.result {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #ff4d4d;
+  font-size: 1.1rem;
 }
