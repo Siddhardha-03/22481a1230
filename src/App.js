@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">🦸‍♂️ Marvel URL Shortener</h1>
+      <h1 className="title">🦸‍♂️  URL Shortener</h1>
       <input
         type="text"
         placeholder="Enter your long URL"
